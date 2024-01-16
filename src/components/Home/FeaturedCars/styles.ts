@@ -27,7 +27,7 @@ export const ContainerFeaturedCars = styled.div`
 
     .cars {
         width: 22%;
-        min-height: 18rem;
+        min-height: 20rem;
         height: auto;
         min-width: 15rem;
         flex-wrap: wrap;
@@ -36,8 +36,9 @@ export const ContainerFeaturedCars = styled.div`
         margin: auto;
         border-radius: 5px;
         border: 1px solid rgb(220, 220, 220);
-
-
+        @media (max-width: 1280px) {
+        min-height: 15rem;
+      }
         p {
             text-align: center;
             font-size: 1rem;
